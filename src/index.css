@@ -1,14 +1,45 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#loading{
+    font-size: 20px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#quote-box{
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+#text{
+    color:#000;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    padding: 4em 4px 2em;
+}
+#btn-bottom{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 0 auto;
+}
+.btn{
+    font-size: 16px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+#new-quote{
+    border: 1px solid #5BC0BE;
+}
+#new-quote:hover{
+    background-color: #5BC0BE;
+    border: 1px solid #5BC0BE;
+}
+#tweet-quote{
+    background-color: #38A1F3;
+    border: 1px solid #38A1F3;
+}
+#tweet-quote:hover{
+    background-color: rgb(46, 147, 224);
 }

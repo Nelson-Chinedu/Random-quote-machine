@@ -2,6 +2,7 @@ body{
     background-color:#636363;
     text-align: center;
     color: #000000;
+    box-sizing: border-box;
 }
 .App{
     background-color: #ffffff;
@@ -14,4 +15,22 @@ body{
     font-family: 'Righteous', cursive;
     margin-top:3em; 
     letter-spacing: 1px;
+}
+
+/* small screen */
+@media only screen and (max-width:513px){
+    body{
+        width: 95%;
+    }
+    .main-container{
+        width: 100%;
+    }
+    .App{
+        width: 100%;
+        height: auto;
+        margin: 3em auto;
+    }
+    #quote-box{
+        width: 100%;
+    }
 }

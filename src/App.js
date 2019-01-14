@@ -53,7 +53,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main-container">
         <h2 id="app-title">Random Quote Machine</h2>
       <div className="App">
        <Card 
